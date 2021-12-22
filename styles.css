@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.content{
+    margin-top: 35px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.gen{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.radio_item{
+    font-size: 18px;
+    line-height: 40px;
+}
+.email{
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.country{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#country{
+    height: 25px;
+}
+.button{
+    padding: 4px 30px 4px 30px;
+    color: red;
+    font-weight: 700;
+    margin: 15px 15px 15px 0px;
+}

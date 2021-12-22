@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="content">
+        <form action="submit">
+            <label for="name" class="name">Name:</label>
+
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="gender" class="gen">Gender</label>
+            <br>
+            <input type="radio" name="male" id="male">
+            <label for="male" class="radio_item">Male</label>
+            <br>
+            <input type="radio" name="female" id="female">
+            <label for="female" class="radio_item">Female</label>
+            <br>
+            <label for="email" class="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="country" class="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Choose your country</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Poland">Poland</option>
+                <option value="Russia">Russia</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="USA">USA</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+            </select>
+            <br>
+            <button class="button">SUBMIT</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
